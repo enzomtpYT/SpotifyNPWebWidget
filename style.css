@@ -1,0 +1,46 @@
+body {
+    background-color: #303030;
+    font: 14px normal Arial, Helvetica, sans-serif;
+    z-index: -4;
+    color: #ffffff;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    color: #808080;
+}
+
+input {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    width: 50%;
+    color: #ffffff;
+    background-color: #303030;
+}
+
+.okbtn {
+    background-color: #00a700;
+    border: 1px solid #00a700;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+    width: 150px;
+    color: #ffffff;
+}
+
+.full-center {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    width: 400px;
+}
