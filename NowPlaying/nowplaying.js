@@ -1,5 +1,10 @@
 let userid = location.search.split("id=")[1]
 
+if (userid == '') 
+{
+    document.location.href = document.location.href.split("/NowPlaying/")[0]
+}
+
 let widget = document.getElementById("widget");
 let back = document.getElementById("back");
 let avd = document.getElementById("avd");
